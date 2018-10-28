@@ -24,8 +24,11 @@ git config --global core.autocrlf input
 git config --global core.safecrlf true
 Для пользователей Windows:
 ВЫПОЛНИТЬ:
-git config --global core.autocrlf true
+//git config --global core.autocrlf true
 git config --global core.safecrlf true
+Решение проблемы с ругательством на CRLF
+git config --global core.autocrlf false 
+
 
 
 03 Установка отображения unicode
